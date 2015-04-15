@@ -78,6 +78,17 @@ and automate annoying tasks.
 #### GameCenter
 
 **TBD**
+For both iOS and Android you must enable the avalon game center flag. The cpp flag to be enabled is:
+
+AVALON_CONFIG_GAMECENTER_ENABLED
+
+##### iOS
+
+##### Android
+
+In Android.mk add:
+LOCAL_CPPFLAGS := -DAVALON_CONFIG_GAMECENTER_ENABLED=1
+
 
 # Documentations
 
